@@ -1,8 +1,23 @@
 aid: secret-escapes
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/secret-escapes.png
 name: Secret Escapes
-description: 'Secret Escapes is a company surfaced as a portfolio company of gv, index-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Secret Escapes is a members-only luxury travel and holiday flash-sales
+  platform that negotiates exclusive, time-limited discounts on hand-picked hotels,
+  city breaks, and package holidays for its members, surfacing over 200 curated sales
+  each week across the UK and international markets. Founded in London and backed by
+  GV and Index Ventures, it operates on an invitation/membership model rather than
+  a public developer platform; no public API surface is currently published.'
 url: https://raw.githubusercontent.com/api-evangelist/secret-escapes/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Travel
+- Hospitality
+- E-commerce
+- Membership
+- Flash Sales
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +45,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://secretescapes.com
+  url: https://www.secretescapes.com
+- type: HelpCenter
+  url: https://www.secretescapes.com/faq
+- type: Support
+  url: https://www.secretescapes.com/contact
+- type: TermsOfService
+  url: https://www.secretescapes.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.secretescapes.com/privacy-policy
+- type: SecurityTxt
+  url: well-known/secret-escapes-security.txt
+- type: WellKnown
+  url: well-known/secret-escapes-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/secret-escapes-vulnerability-disclosure.yml
+- type: Security
+  url: security/secret-escapes-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/secret-escapes-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
