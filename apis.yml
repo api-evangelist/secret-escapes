@@ -30,6 +30,9 @@ description: 'Secret Escapes is a members-only luxury travel and holiday flash-s
   GV and Index Ventures, it operates on an invitation/membership model rather than
   a public developer platform; no public API surface is currently published.'
 url: https://raw.githubusercontent.com/api-evangelist/secret-escapes/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Founded in London and backed by GV and Index Ventures, it operates on an invitation/membership model rather than a public developer platform; no public API surface is currently published."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
